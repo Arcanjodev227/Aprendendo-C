@@ -5,21 +5,20 @@ int main () {
     float altura;
     char nome [50];
     
-    printf ("Digite suaa idade: \n");
+    printf("digite sua idade \n");
     scanf("%d", &idade);
 
-    printf("Digite sua altura: \n");
+    printf("digite sua matricula \n");
+    scanf("%d", &matricula);
+
+    printf("digite sua altura \n");
     scanf("%f", &altura);
 
-    printf("Digite o seu nome: \n");
-    scanf("%s", nome );
+    printf("digite seu nome \n");
+    scanf(" %s", nome);
 
-    printf("Digite a sua matrícula: \n");
-    scanf("%d"), &matricula;
-
-        printf("Nome do aluno: %s - Matrícula: %d\n", nome, matricula);
-    printf("idade: %d - altura: %f", idade, altura);
+    printf("nome do aluno: %s - matrícula: %d \n", nome, matricula);
+    printf("idade: %d - Altura: %.2f \n", idade, altura);
 
     return 0;
-
 }
